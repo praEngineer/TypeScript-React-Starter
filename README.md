@@ -4,7 +4,11 @@ This means you can get started with:
 
 ```sh
 # Creates an app called my-app
-npx create-react-app my-app --typescript
+npx create-react-app my-app typescript
+
+# The --typescript option has been deprecated and will be removed in a future release.
+# In future, please use --template typescript.
+npx create-react-app my-app --template typescript
 
 cd my-app
 
